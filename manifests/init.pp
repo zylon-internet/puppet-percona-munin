@@ -6,7 +6,7 @@ class percona-munin {
   }
 
   file { "/usr/share/perl5":
-      source => "percona-munin/munin/mysql/lib",
+      source => "puppet:///modules/percona-munin/munin/mysql/lib",
       recurse => true;
   }
 
