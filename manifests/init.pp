@@ -1,7 +1,7 @@
 class percona-munin {
 
   munin::plugin {
-    'mysql_':
+    'mysql':
       source           => "percona-munin/munin/mysql/mysql";
   }
 
